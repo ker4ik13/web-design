@@ -85,3 +85,151 @@
     margin-left: initial;
   }
 }
+/* Footer */
+
+.footer{
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.container{
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.footer__container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.footer__logo{
+  color: #f1c50e;
+  font-weight: 700;
+}
+.footer__logo span{
+  color: #fff;
+}
+.footer__text {
+  color: #fff;
+}
+.footer__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer__img {
+  max-width: 20px;
+}
+.footer__link {
+  font-size: 16px;
+  color: #fff;
+}
+
+ /* Selectors */
+
+ .selectors {
+  padding-top: 50px;
+}
+.selectors__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.selectors__list {
+
+}
+.selectors__item {
+  font-size: 16px;
+}
+.selectors__subtitle {
+
+}
+.selectors__video {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.selectors__text { }
+.selectors__subsubtitle{
+  
+}
+/* Task */
+
+.task {
+  margin: 50px;
+}
+.container { }
+.task__tiile { }
+.task_subtitle { }
+.task__text { }
+
+/* Form test */
+.test {
+  margin: 50px 0;
+}
+.test__form {
+}
+.test__form__title{
+  font-size: 20px;
+  font-weight: 500;
+}
+.test__ask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.test__ask label{
+  display: flex;
+  width: 100%;
+  width: 400px;
+  background-color: #c0c0c0;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.test__ask input:checked .test__ask label{
+  background-color: #999;
+}
+.test__ask-1 {
+
+}
+.test__ask-2 {
+}
+.test__ask-3 {
+}
+.test__form__label {
+ 
+}
+.test__form__input {
+  display: flex;
+}
+.test__form__input-text{
+  display: block;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+}
+.input__submit__button{
+  border-radius: 8px;
+  padding: 4px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 50px;
+  box-shadow: none;
+  border: 0;
+  background-color: #b7b7b7;
+}

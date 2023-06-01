@@ -182,6 +182,7 @@
 }
 .blog__post__wrapper {
   padding: 20px 20px 0px 20px;
+  object-fit: cover;
 }
 .blog__post__title {
   font-size: 24px;
@@ -192,6 +193,8 @@
   width: 100%;
   object-fit: cover;
   height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .blog__post__description {
   font-size: 20px;
@@ -211,4 +214,7 @@
 }
 .blog__post__link:hover{
   text-decoration: none;
+}
+.u-section-1 .u-sheet-1 {
+  min-height: 711px;
 }

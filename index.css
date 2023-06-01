@@ -93,6 +93,41 @@
   fill: #478ac9;
 }
 
+
+ /* Selectors */
+
+ .selectors {
+  padding-top: 50px;
+}
+.selectors__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.selectors__list {
+
+}
+.selectors__item {
+  font-size: 16px;
+}
+.selectors__subtitle {
+
+}
+.selectors__video {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.selectors__text { }
+.selectors__subsubtitle{
+  
+}
+/* Task */
+
+.task {
+  margin: 50px 0;
+}
+.task__tiile { }
+.task_subtitle { }
+.task__text { }
 .u-section-1 .u-sheet-1 {
   min-height: 711px;
 }

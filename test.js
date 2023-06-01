@@ -7,6 +7,7 @@ let no = 0;
 let result = '';
 let choise;
 
+
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
     checkTest();
